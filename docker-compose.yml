@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  mysql-server-80:
+    image: mysql/mysql-server:8.0 
+    container_name: mysqlsrv
+    ports:
+      - 3308:3306
+    volumes:
+      - ./docker-entrypoint-initdb.d/:/docker-entrypoint-initdb.d/
+    restart: always
+    environment:
+      - MYSQL_DATABASE=mybase
+      - MYSQL_ROOT_PASSWORD=srvpass
+

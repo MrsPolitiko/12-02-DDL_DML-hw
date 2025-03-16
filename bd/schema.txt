@@ -1,0 +1,23 @@
++----------+---------------+--------------+
+| Database | Table         | Primary Key  |
++----------+---------------+--------------+
+| sakila   | actor         | actor_id     |
+| sakila   | address       | address_id   |
+| sakila   | category      | category_id  |
+| sakila   | city          | city_id      |
+| sakila   | country       | country_id   |
+| sakila   | customer      | customer_id  |
+| sakila   | film          | film_id      |
+| sakila   | film_actor    | actor_id     |
+| sakila   | film_actor    | film_id      |
+| sakila   | film_category | category_id  |
+| sakila   | film_category | film_id      |
+| sakila   | film_text     | film_id      |
+| sakila   | inventory     | inventory_id |
+| sakila   | language      | language_id  |
+| sakila   | payment       | payment_id   |
+| sakila   | rental        | rental_id    |
+| sakila   | staff         | staff_id     |
+| sakila   | store         | store_id     |
++----------+---------------+--------------+
+
